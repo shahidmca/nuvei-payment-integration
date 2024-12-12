@@ -1,0 +1,23 @@
+{
+  "name": "nuvei-payment-integration",
+  "version": "1.0.0",
+  "description": "Explore our documentation to learn how to integrate with our payment solutions.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Mohammad Shahid <shahidmca>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "safecharge": "^1.0.1"
+  }
+}
